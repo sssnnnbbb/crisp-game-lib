@@ -4,10 +4,12 @@ test/
 .vscode/
 .claude/
 .serena/
+.agents/
 package-lock.json
 tsconfig.json
 tsconfig-rollup.json
 rollup.config.js
-vitest.config.js
+vitest.config.ts
 AGENTS.md
 CLAUDE.md
+crisp-game-lib-guide.md

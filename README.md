@@ -14,7 +14,9 @@ English | [日本語](https://github.com/abagames/crisp-game-lib/blob/master/REA
 
 - [Reference of crisp-game-lib](https://abagames.github.io/crisp-game-lib/ref_document/modules.html)
 
-- [Crisp Game Lib Guide](crisp-game-lib-guide.md) - Comprehensive development guide for crisp-game-lib, including complete API reference, working examples, and best practices. Especially useful for LLM-assisted development
+- [AI Skills for crisp-game-lib](.agents/skills/) - Recommended for coding agents. Compatible agents can automatically discover and apply skills placed under `.agents/skills/`.
+
+- [Crisp Game Lib Guide](crisp-game-lib-guide.md) - General-purpose guide for non-skill workflows (e.g., chat interfaces or manual reference).
 
 - Sample games and sample codes are collected in the dedicated bundles
   [crisp-game-lib-12-games](https://github.com/abagames/crisp-game-lib-12-games/blob/main/README.md)

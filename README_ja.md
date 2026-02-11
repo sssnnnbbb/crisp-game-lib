@@ -14,7 +14,9 @@
 
 - [crisp-game-lib のリファレンス](https://abagames.github.io/crisp-game-lib/ref_document/modules.html)
 
-- [Crisp Game Lib ガイド](crisp-game-lib-guide.md) - crisp-game-lib の包括的な開発ガイド。完全な API リファレンス、動作するサンプル、ベストプラクティスを含む。LLM による開発支援にも対応
+- [crisp-game-lib 用 AI スキル](.agents/skills/) - コーディングエージェントでの利用はこれを推奨。`.agents/skills/` に配置したスキルは、対応エージェントが自動検出・適用します。
+
+- [Crisp Game Lib ガイド](crisp-game-lib-guide.md) - スキル非対応の利用形態（チャットインタフェース、手動参照など）向けの汎用ガイドです。
 
 - サンプルゲームとコードは
   [crisp-game-lib-12-games](https://github.com/abagames/crisp-game-lib-12-games/blob/main/README.md)
