@@ -3,17 +3,7 @@ title = "LOCK ON";
 description = `HOLD to aim
 RELEASE to fire`;
 
-characters = [
-  // 'a': player ship — upward pointing triangle
-  `
-..ll..
-..ll..
-.llll.
-llllll
-llllll
-..ll..
-`,
-];
+characters = [];
 
 const CONFIG = {
   MAX_CHAIN: 4,
@@ -67,9 +57,11 @@ function update() {
   // Draw enemies (before beam so beam renders on top)
   updateAndDrawEnemies();
 
-  // Player ship
+  // Player ship (small upward triangle)
   color("cyan");
-  char("a", 50, CONFIG.PLAYER_Y);
+  line(vec(50, CONFIG.PLAYER_Y - 4), vec(46, CONFIG.PLAYER_Y + 3), 1.5);
+  line(vec(50, CONFIG.PLAYER_Y - 4), vec(54, CONFIG.PLAYER_Y + 3), 1.5);
+  line(vec(46, CONFIG.PLAYER_Y + 3), vec(54, CONFIG.PLAYER_Y + 3), 1.5);
 
   // Beam + lock-on while button held
   if (input.isPressed) {
